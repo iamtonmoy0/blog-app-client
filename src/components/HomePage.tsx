@@ -10,6 +10,7 @@ export default function HomePage() {
           Write and Share Your Blog with everyone!
         </Typography>
         <img
+        // @ts-ignore
           style={homepageStyles.image}
           width="50%"
           height="50%"
@@ -19,6 +20,7 @@ export default function HomePage() {
       {/* box 2 */}
       <Box sx={homepageStyles.wrapper}>
         <img
+        // @ts-ignore
           style={homepageStyles.image}
           width="50%"
           height="50%"
@@ -34,6 +36,7 @@ export default function HomePage() {
           Write and Share Your Blog with everyone!
         </Typography>
         <img
+        // @ts-ignore
           style={homepageStyles.image}
           width="50%"
           height="50%"
