@@ -1,6 +1,6 @@
 import { SxProps } from "@mui/material";
 
-type Styles = {
+export type Styles = {
   [key: string]: SxProps;
 };
 
@@ -27,7 +27,7 @@ export const homepageStyles: Styles = {
   },
 
   footerContainer: {
-    bgcolor:"#404040",
+    bgcolor: "#404040",
     display: "flex",
     alignItems: "center",
     height: "20vh",
@@ -36,13 +36,11 @@ export const homepageStyles: Styles = {
   },
   footerButton: {
     borderRadius: 10,
-    bgcolor:"blueviolet",
-    color:"white",
-    textTransform:"capitalize",
-    ":hover":{
-      bgcolor:"#bd63fa"
-    }
-    
-
+    bgcolor: "blueviolet",
+    color: "white",
+    textTransform: "capitalize",
+    ":hover": {
+      bgcolor: "#bd63fa",
+    },
   },
 };
