@@ -14,7 +14,7 @@ export default function HomePage() {
           style={homepageStyles.image}
           width="50%"
           height="50%"
-          src="https://images.unsplash.com/photo-1472905981516-5ac09f35b7f4?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://plus.unsplash.com/premium_photo-1661475877403-ce2e772fea2e?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
       </Box>
       {/* box 2 */}
@@ -40,7 +40,7 @@ export default function HomePage() {
           style={homepageStyles.image}
           width="50%"
           height="50%"
-          src="https://images.unsplash.com/photo-1472905981516-5ac09f35b7f4?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
       </Box>
     </Box>
