@@ -17,7 +17,7 @@ export default function Header() {
             indicatorColor="secondary"
             textColor="inherit"
             value={active}
-            onChange={(e, val) => {
+            onChange={(_e, val) => {
               setActive(val);
             }}
           >
