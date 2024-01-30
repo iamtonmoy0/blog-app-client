@@ -2,6 +2,7 @@ import { AppBar, Box, Tab, Tabs, Toolbar, Button } from "@mui/material";
 import { ImBlogger } from "react-icons/im";
 import headerStyles from "../styles/header-styles";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [active, setActive] = useState(0);
@@ -20,8 +21,12 @@ export default function Header() {
               setActive(val);
             }}
           >
-            <Tab label="Home" />
-            <Tab label="Blogs" />
+            <Link to="/">
+              <Tab label="Home" />
+            </Link>
+            <Link to="/blogs">
+              <Tab label="Blogs" />
+            </Link>
             <Button sx={headerStyles.authButton}>Login</Button>
             <Button sx={headerStyles.authButton}>Register</Button>
           </Tabs>
